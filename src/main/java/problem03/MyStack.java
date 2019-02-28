@@ -65,7 +65,7 @@ public class MyStack {
 		}
 	}
 	
-	public int size() {
+	public int size() {			System.out.printf("");
 		return 0;
 	}
 }

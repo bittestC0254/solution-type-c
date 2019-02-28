@@ -14,6 +14,7 @@ public class Main {
 			String s = stack.pop(); // 스택 
 			System.out.println(s);
 		}
+		System.out.println("gg");
 
 		System.out.println("======================================");
 		//MyStack stack = new MyStack(3); //삭제

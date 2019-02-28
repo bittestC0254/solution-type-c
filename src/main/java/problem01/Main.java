@@ -17,10 +17,10 @@ public class Main {
 	//	System.out.println("answer="+ randomNumber); //필히 삭제
 		// 키보드 입력을 받기 위해 Scanner 생성
 		Scanner scanner = new Scanner(System.in);
-		
+		System.out.printf("");
 		// 게임 시작
 		while( true ) {
-	
+
 			System.out.print( "[" + min + "-" + max + "] 사이의 값 입력:" );
 			int answer = scanner.nextInt();
 			count++;

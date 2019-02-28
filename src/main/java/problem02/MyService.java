@@ -8,7 +8,7 @@ public class MyService extends BaseService {
 	
 	public void service(String state) { //baseservice의 service함수를 재사용
 		//부모께 맞으면 부모의 result 사용
-		 
+		System.out.printf("");
 		String result;
 		
 		if( state.equals("오후")) { 

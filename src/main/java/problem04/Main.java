@@ -41,7 +41,8 @@ public class Main {
 				num2 = question2[random_num2];
 			}
 			
-			System.out.printf("%d. %d x %d ?", i, random_num1+1, num2);
+			System.out.printf("%d. %d x %d ?", i, random_num1+1, num2);		
+			System.out.printf("");
 		}
 	}
 }
