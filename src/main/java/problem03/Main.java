@@ -8,6 +8,7 @@ public class Main {
 		stack.push("World");
 		stack.push("!!!");
 		stack.push("java");
+<<<<<<< HEAD
 		//stack.push(".");
 
 		while (stack.isEmpty() == false) {
@@ -31,5 +32,21 @@ public class Main {
 
 		
 
+=======
+		stack.push(".");
+
+		while (stack.isEmpty() == false) {
+			String s = stack.pop();
+			System.out.println(s);
+		}
+
+		System.out.println("======================================");
+
+		stack = new MyStack(3);
+		stack.push("Hello");
+
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+>>>>>>> branch 'master' of https://github.com/bittestC0254/solution-type-c.git
 	}
 }

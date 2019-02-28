@@ -2,6 +2,7 @@ package problem04;
 
 public class Main {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		//구구단
 		//각 단에서 2개씩
 		//문제 선택
@@ -44,5 +45,7 @@ public class Main {
 			System.out.printf("%d. %d x %d ?", i, random_num1+1, num2);		
 			System.out.printf("");
 		}
+=======
+>>>>>>> branch 'master' of https://github.com/bittestC0254/solution-type-c.git
 	}
 }

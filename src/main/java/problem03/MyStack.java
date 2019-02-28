@@ -3,6 +3,7 @@ package problem03;
 public class MyStack {
 	
 	private String[] buffer;
+<<<<<<< HEAD
  	int top;
  	int stack_size;
 	
@@ -66,6 +67,24 @@ public class MyStack {
 	}
 	
 	public int size() {			System.out.printf("");
+=======
+
+	public MyStack( int size ) {
+	}
+	
+	public void push(String item) {
+	}
+
+	public String pop() {
+		return null;
+	}
+
+	public boolean isEmpty() {
+		return false;
+	}
+	
+	public int size() {
+>>>>>>> branch 'master' of https://github.com/bittestC0254/solution-type-c.git
 		return 0;
 	}
 }

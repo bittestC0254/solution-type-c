@@ -3,6 +3,7 @@ package problem02;
 public class MyService extends BaseService {
 
 	public String afternoon() {
+<<<<<<< HEAD
 		return "오후";
 	} 
 	
@@ -19,5 +20,8 @@ public class MyService extends BaseService {
 			super.service(state);
 		}
 		System.out.println("서비스 시작");
+=======
+		return null;
+>>>>>>> branch 'master' of https://github.com/bittestC0254/solution-type-c.git
 	}
 }
